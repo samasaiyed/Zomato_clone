@@ -1,0 +1,50 @@
+.image-wrapper
+{
+    position: relative;
+    width: 100%;
+}
+.img-container-cover
+{
+    max-width: 1100px;
+    margin: 0px auto;
+    padding: 15px 0px 40px;
+}
+.img-container
+{
+    margin-top: 24px;
+    margin-bottom: 0px;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: none;
+    opacity: 1;
+    border-radius: inherit;
+    filter: unset;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+    transition-duration: 0.25s, 0.25s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+    transition-property: opacity, transform;
+}
+.gradient-bg
+{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    background: linear-gradient(to right, rgb(248, 248, 248) 0%, rgb(255, 255, 255) 10%, rgb(248, 248, 248) 40%, rgb(248, 248, 248) 100%) no-repeat rgb(248, 248, 248);
+    opacity: 0;
+    transition: opacity 0.25s ease-out 0s;
+    will-change: opacity;
+    border-radius: inherit;
+    animation: 1.5s linear 0s infinite normal forwards running jCOzbu;
+}
