@@ -23,7 +23,7 @@ const header = () => {
             </div>
             <div className='profile-wrapper'> 
               <img src="https://b.zmtcdn.com/data/user_profile_pictures/028/780711e526a516d047f7c57075891028.jpg?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A" 
-                  alt='profile-image'
+                  alt='profile'
                   className='header-profile-image'
               />
               <span className='header-username'>Sama</span>

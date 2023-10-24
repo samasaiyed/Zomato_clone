@@ -23,6 +23,8 @@ const getScreen = (tab) =>{
             return <Delivery />
         case "Dinning Out" :
             return <DinningOut />
+        default : 
+          return <Delivery />
         }
 }
 export default Homepage

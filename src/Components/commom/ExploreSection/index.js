@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import { restaurants } from '../../../Data/Restaurants'
+//import { restaurants } from '../../../Data/Restaurants'
 import ExploreCard from './ExploreCard'
 const ExploreSection = ({list,collectionName}) => {
   return (
